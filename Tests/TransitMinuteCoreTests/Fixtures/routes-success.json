@@ -1,0 +1,33 @@
+{
+  "routes": [
+    {
+      "description": "Bus 90",
+      "legs": [
+        {
+          "duration": "1800s",
+          "staticDuration": "1800s",
+          "steps": [
+            {
+              "staticDuration": "240s"
+            },
+            {
+              "staticDuration": "1200s",
+              "transitDetails": {
+                "stopDetails": {
+                  "departureStop": {
+                    "name": "Main St / King St"
+                  },
+                  "departureTime": "2026-05-07T12:30:00Z"
+                },
+                "transitLine": {
+                  "name": "Crosstown",
+                  "nameShort": "90"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

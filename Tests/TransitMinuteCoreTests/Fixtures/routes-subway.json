@@ -1,0 +1,36 @@
+{
+  "routes": [
+    {
+      "description": "Blue Line",
+      "legs": [
+        {
+          "duration": "1800s",
+          "staticDuration": "1800s",
+          "steps": [
+            {
+              "staticDuration": "180s"
+            },
+            {
+              "staticDuration": "1200s",
+              "transitDetails": {
+                "stopDetails": {
+                  "departureStop": {
+                    "name": "Central Station"
+                  },
+                  "departureTime": "2026-05-07T12:45:00Z"
+                },
+                "transitLine": {
+                  "name": "Blue Line",
+                  "nameShort": "Blue",
+                  "vehicle": {
+                    "type": "SUBWAY"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
