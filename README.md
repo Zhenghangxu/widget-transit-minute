@@ -2,6 +2,9 @@
 
 Transit Minute is a native macOS menu bar app that tells you when to leave for transit between Home and Work.
 
+<img width="190" height="136" alt="SCR-20260509-kobj" src="https://github.com/user-attachments/assets/c5a3745a-a22e-4d35-9632-04ae36a5f924" />
+
+
 It watches the next Google Routes transit option, subtracts your walk time and preferred buffer, and keeps the answer visible in the menu bar so you can glance up and know whether you have time.
 
 ## What it does
